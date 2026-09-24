@@ -1,0 +1,12 @@
+{
+  "kernel": "kernel",
+  "initrd": "initrd",
+  "disks": [
+    { "image": { "path": "ubuntu-rootfs.img" }, "writable": true }
+  ],
+  "protected": false,
+  "platform_version": "1.0",
+  "memory_mib": 4096,
+  "cpu_topology": "match_host",
+  "params": "rootfstype=ext4 rw console=hvc0"
+}
